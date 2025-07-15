@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Snake Game with Score & Levels</title>
+    <style>
+      canvas {
+        background-color: #222;
+        margin-top: 15px;
+        border: 2px solid #4caf50;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Snake Game</h1>
+    <div class="info">
+      Score: <span id="score">0</span> | Level: <span id="level">1</span>
+    </div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <button
+      id="restartBtn"
+      style="margin-top: 20px; padding: 10px 20px; font-size: 16px"
+    >
+      Restart Game
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
